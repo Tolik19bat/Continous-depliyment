@@ -1,5 +1,5 @@
 {
-  "name": "@tolik19bat/webpack5",
+  "name": "webpack5",
   "version": "1.0.0",
   "description": "[![Build status](https://ci.appveyor.com/api/projects/status/qdthraxn2c91sgp6?svg=true)](https://ci.appveyor.com/project/Tolik19bat/continous-depliyment)",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "author": "coursar",
+  "author": "Anatoly Batov",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
@@ -38,12 +38,14 @@
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tolik19bat/Continous-depliyment.git"
-  },
+  "repository": "git+https://github.com/Tolik19bat/Continous-depliyment.git",
   "bugs": {
     "url": "https://github.com/Tolik19bat/Continous-depliyment/issues"
   },
-  "homepage": "https://github.com/Tolik19bat/Continous-depliyment#readme"
+  "homepage": "https://github.com/Tolik19bat/Continous-depliyment#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "global": "^4.4.0",
+    "yarn": "^1.22.21"
+  }
 }
