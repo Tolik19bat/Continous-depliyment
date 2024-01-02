@@ -38,17 +38,8 @@
     "webpack-dev-server": "",
     "webpack-merge": ""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tolik19bat/Continous-depliyment.git"
-  },
+  "repository": "git+https://github.com/Tolik19bat/Continous-depliyment.git",
   "bugs": {
     "url": "https://github.com/Tolik19bat/Continous-depliyment/issues"
-  },
-  "homepage": "https://github.com/Tolik19bat/Continous-depliyment#readme",
-  "dependencies": {
-    "-": "^0.0.1",
-    "global": "^4.4.0",
-    "yarn": "^1.22.21"
   }
 }
